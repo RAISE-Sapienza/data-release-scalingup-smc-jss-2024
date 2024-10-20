@@ -123,7 +123,7 @@ chmod +x run_generate_production_speed_plot_linear.sh
 
 #### Generate all images about parallel times and efficiency ####
 
-To generate the image of parallel times and efficiency, run:
+To generate the images of parallel times and efficiency, run:
 
 ```
 cd scripts/sections
