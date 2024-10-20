@@ -345,7 +345,7 @@ def main():
 
     used_delta = get_used_delta()
     epsilon_used = get_used_epsilon()
-    used_workers = [1, 64, 128, 256, 512, 1024, 2048]
+    used_workers = [1, 128, 256, 512, 1024, 2048]
 
     palette = Cubehelix.make(start=0.3, rotation=-0.5, n=16)
     colors = [f'rgb({c[0]},{c[1]},{c[2]})' for c in palette.colors]
