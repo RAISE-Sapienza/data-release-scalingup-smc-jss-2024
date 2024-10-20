@@ -9,9 +9,9 @@ This repository contains raw data and code to generate all plots presented in th
 This repository contains the following directories:
 
 * `code` - folder containing the code used to generate each plot.
-* `data` - folder containing the result of the experiments within JSON files.
+* `data` - folder containing the results of the experiments within JSON files.
 * `figures` - folder containing all generated figures. 
-* `scripts` - folder containing bash script to generate all plots.
+* `scripts` - folder containing bash scripts to generate all plots.
 
 
 ## Running environment ##
@@ -55,9 +55,9 @@ chmod +x run_generate_all_plots.sh
 
 ### Sample size analysis
 
-#### Generate all images about sample size analysis ####
+#### Generate all images about ensemble analysis in the sample size and sample saving ####
 
-To generate all images about sample size analysis, run:
+To generate all images about ensemble analysis in the sample size and sample saving, run:
 
 ```
 cd scripts/sections/
@@ -76,6 +76,8 @@ chmod +x run_generate_ensemble_sample_saving_plot.sh
 ```
 
 #### Generate images about sample size analysis ####
+
+To generate all images about sample size analysis, run:
 
 ```
 cd scripts/sections/samples/
@@ -98,7 +100,7 @@ chmod +x run_generate_all_architecture_plots.sh
 
 #### Generate samples production-consumption rate in logarithmic scale image ####
 
-To generate the image of the sample production-consumption rate in the logarithmic scale, run:
+To generate the image of the sample production-consumption rate using the logarithmic scale, run:
 
 ```
 cd scripts/sections/architecture
@@ -108,7 +110,7 @@ chmod +x run_generate_production_consumption_speed_plot_log.sh
 
 #### Generate sample production rate in linear scale image ####
 
-To generate the image of the sample production rate on the linear scale, run:
+To generate the image of the sample production rate using the linear scale, run:
 
 ```
 cd scripts/sections/architecture
