@@ -2,13 +2,13 @@
 
 This repository contains raw data and code to generate all plots presented in the paper. 
 
-*The software tool to generate all data is available upon request*.
+*The software tool to verify safety/mission-critical systems through the approach presented in the paper is available upon request*.
 
 ## Structure 
 
 This repository contains the following directories:
 
-* `code` - folder containing the code to generate each plot.
+* `code` - folder containing the code used to generate each plot.
 * `data` - folder containing the result of the experiments within JSON files.
 * `figures` - folder containing all generated figures. 
 * `scripts` - folder containing bash script to generate all plots.
@@ -16,7 +16,7 @@ This repository contains the following directories:
 
 ## Running environment ##
 
-The generate each plot you need to configure a python environment using Anaconda. To this end, you can follow the following instructions:
+To generate each plot, you need to configure a Python environment using Anaconda. To this end, you can follow the following instructions:
 
 1. Install Anaconda (Miniconda in this setting) with Python 3.11.
 
@@ -98,7 +98,7 @@ chmod +x run_generate_all_architecture_plots.sh
 
 #### Generate samples production-consumption rate in logarithmic scale image ####
 
-To generate the image about samples production-consumption rate in logarithmic scale, run:
+To generate the image of the sample production-consumption rate in the logarithmic scale, run:
 
 ```
 cd scripts/sections/architecture
@@ -106,9 +106,9 @@ chmod +x run_generate_production_consumption_speed_plot_log.sh
 ./run_generate_production_consumption_speed_plot_log.sh
 ```
 
-#### Generate samples production rate in linear scale image ####
+#### Generate sample production rate in linear scale image ####
 
-To generate the image about samples production rate in linear scale, run:
+To generate the image of the sample production rate on the linear scale, run:
 
 ```
 cd scripts/sections/architecture
@@ -120,6 +120,8 @@ chmod +x run_generate_production_speed_plot_linear.sh
 ### Parallel times and efficiency ###
 
 #### Generate all images about parallel times and efficiency ####
+
+To generate the image of parallel times and efficiency, run:
 
 ```
 cd scripts/sections
