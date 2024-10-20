@@ -18,12 +18,7 @@ This repository contains the following directories:
 
 The generate each plot you need to configure a python environment using Anaconda. To this end, you can follow the following instructions:
 
-1. Install Anaconda (Miniconda in this setting) with Python 3.11 with the following command:
-
-   ```
-   wget --quiet https://repo.anaconda.com/miniconda/Miniconda3-py311_24.7.1-0-Linux-x86_64.sh -O /home/miniconda.sh
-   /bin/bash /home/miniconda.sh -b -p /opt/conda 
-   ```
+1. Install Anaconda (Miniconda in this setting) with Python 3.11.
 
 2. Create a new environment with Anaconda and activate it as follows:
    ```
