@@ -1,0 +1,142 @@
+{
+    "production": {
+        "fcs": {
+            "worker64": {
+                "n_samples_produced": 1000000,
+                "emulation_elapsed_time": 103.5223558023572,
+                "elapsed_time_evaluation": 3562.851386851696,
+                "production_rate": 280.6740701255146
+            },
+            "worker1024": {
+                "n_samples_produced": 1000000,
+                "emulation_elapsed_time": 102.61580046266317,
+                "elapsed_time_evaluation": 222.78330936497957,
+                "production_rate": 4488.666600969323
+            },
+            "worker256": {
+                "n_samples_produced": 1000000,
+                "emulation_elapsed_time": 100.86957408487797,
+                "elapsed_time_evaluation": 890.7892134941659,
+                "production_rate": 1122.600032478446
+            },
+            "worker512": {
+                "n_samples_produced": 1000000,
+                "emulation_elapsed_time": 105.55177798122168,
+                "elapsed_time_evaluation": 445.45124015920925,
+                "production_rate": 2244.9146165640686
+            },
+            "worker1": {
+                "n_samples_produced": 1000000,
+                "emulation_elapsed_time": 101.83153836801648,
+                "elapsed_time_evaluation": 228016.6009352489,
+                "production_rate": 4.385645588515616
+            },
+            "worker128": {
+                "n_samples_produced": 1000000,
+                "emulation_elapsed_time": 101.8556216955185,
+                "elapsed_time_evaluation": 1781.4794994076092,
+                "production_rate": 561.331185866875
+            },
+            "worker2048": {
+                "n_samples_produced": 1000000,
+                "emulation_elapsed_time": 104.9663680717349,
+                "elapsed_time_evaluation": 111.45343947759169,
+                "production_rate": 8972.3565704857
+            }
+        },
+        "at": {
+            "worker128": {
+                "n_samples_produced": 1000000,
+                "emulation_elapsed_time": 104.64555488526821,
+                "elapsed_time_evaluation": 1076.6444489193068,
+                "production_rate": 928.8117363199713
+            },
+            "worker64": {
+                "n_samples_produced": 1000000,
+                "emulation_elapsed_time": 103.70766320079565,
+                "elapsed_time_evaluation": 2153.221882882785,
+                "production_rate": 464.42032191367855
+            },
+            "worker512": {
+                "n_samples_produced": 1000000,
+                "emulation_elapsed_time": 102.46782235056162,
+                "elapsed_time_evaluation": 269.211289360344,
+                "production_rate": 3714.5544764338715
+            },
+            "worker256": {
+                "n_samples_produced": 1000000,
+                "emulation_elapsed_time": 102.50204682350159,
+                "elapsed_time_evaluation": 538.3529263937604,
+                "production_rate": 1857.5175335233214
+            },
+            "worker2048": {
+                "n_samples_produced": 1000000,
+                "emulation_elapsed_time": 104.73500225692987,
+                "elapsed_time_evaluation": 67.3567492430965,
+                "production_rate": 14846.322176132802
+            },
+            "worker1024": {
+                "n_samples_produced": 1000000,
+                "emulation_elapsed_time": 103.46574595570564,
+                "elapsed_time_evaluation": 134.6399627493134,
+                "production_rate": 7427.215364444977
+            },
+            "worker1": {
+                "n_samples_produced": 1000000,
+                "emulation_elapsed_time": 103.78810574859381,
+                "elapsed_time_evaluation": 137801.77533038068,
+                "production_rate": 7.256800557195241
+            }
+        },
+        "alma": {
+            "worker512": {
+                "n_samples_produced": 1000000,
+                "emulation_elapsed_time": 204.93000902235508,
+                "elapsed_time_evaluation": 13999.459250409167,
+                "production_rate": 71.43133046162284
+            },
+            "worker1024": {
+                "n_samples_produced": 1000000,
+                "emulation_elapsed_time": 201.96795255690813,
+                "elapsed_time_evaluation": 7001.090988858238,
+                "production_rate": 142.83488124799865
+            },
+            "worker1": {
+                "n_samples_produced": 1000000,
+                "emulation_elapsed_time": 201.9028058424592,
+                "elapsed_time_evaluation": 7166200.1759197945,
+                "production_rate": 0.13954396687944154
+            },
+            "worker256": {
+                "n_samples_produced": 1000000,
+                "emulation_elapsed_time": 201.27999351918697,
+                "elapsed_time_evaluation": 27995.701776565475,
+                "production_rate": 35.719768983861506
+            },
+            "worker64": {
+                "n_samples_produced": 1000000,
+                "emulation_elapsed_time": 202.31310288608074,
+                "elapsed_time_evaluation": 111974.94867703482,
+                "production_rate": 8.930568951491667
+            },
+            "worker128": {
+                "n_samples_produced": 1000000,
+                "emulation_elapsed_time": 202.89208079874516,
+                "elapsed_time_evaluation": 55988.325388122066,
+                "production_rate": 17.86086640505505
+            },
+            "worker2048": {
+                "n_samples_produced": 1000000,
+                "emulation_elapsed_time": 203.53842341154814,
+                "elapsed_time_evaluation": 3502.138341640572,
+                "production_rate": 285.5398337952439
+            }
+        }
+    },
+    "consumption": {
+        "n_samples_produced": 1000000,
+        "emulation_elapsed_time": 0.5804893858730793,
+        "elapsed_time_evaluation": 0.569477608,
+        "production_rate": 1755995.2945507208
+    }
+}
