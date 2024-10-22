@@ -1,6 +1,6 @@
 # Scaling Up Statistical Model Checking of Cyber-Physical Systems via Algorithm Ensemble and Parallel Simulations over HPC Infrastructures (data release) #
 
-In this repository, we release data and all code to reproduce all images.
+In this repository, we release data and code to reproduce the plots of the article.
 
 *The software tool to verify safety/mission-critical systems through the approach presented in the paper is available upon request*.
 
